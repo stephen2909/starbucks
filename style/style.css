@@ -1,0 +1,25 @@
+@font-face {
+    font-family: fonts;
+    src: url(../fonts/Candara.ttf);
+}
+body {
+	font-family: fonts;
+	background-color: #ebebeb;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+ul.breadcrumb {
+    padding: none;
+    list-style: none;
+    
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+    padding: none;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {color: blue;}
